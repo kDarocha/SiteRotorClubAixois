@@ -1,0 +1,3 @@
+User-agent: *
+# Private pages
+Disallow:
