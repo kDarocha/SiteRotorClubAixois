@@ -80,6 +80,14 @@ body{
 .fin {
     clear: both;
 }
+#btn_up{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	cursor: pointer;
+	display:none;
+	z-index:7;
+}
 .form-label {
     width: 150px !important;
 }
