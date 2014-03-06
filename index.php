@@ -31,11 +31,10 @@
     </nav>
         </div>
         <div id="page">
+        	<div id="facebook" class="fb-like" data-href="https://www.facebook.com/rotorclubaixois" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
         	<div id="contenu">
 				<div id="contenuTexte">
-                	<center>
-                	    <h1>Welcome aboard</h1>
-                	</center>
+                	<h1>Welcome aboard</h1>
                 	<p>Le Rotor Club Aixois vous souhaite la bienvenue à bord de son site internet. Accrochez vos ceintures, sortez la check-list et partagez avec nous le plaisir de piloter un hélicoptère…</p>
                 	<h2>ECOLE</h2>
                 	<p>Créé en 2000, le Rotor Club Aixois est une association loi de 1901 à but non lucratif, dont l’objet est de rapprocher tous les passionnés de voilures tournantes. Un agrément délivré par la DGAC, nous autorise à former des pilotes privés sur hélicoptère. Cette licence (PPL-H) permettra au titulaire de piloter tous les hélicoptères sur lesquels il est qualifié, sans limitation de distance, tout en emmenant des passagers avec qui, il pourra partager les frais.</p>
@@ -45,7 +44,7 @@
                 	<p>Pour vous permettre d’accéder à ce plaisir inégalé, et pourquoi pas vous décider à rejoindre notre école de pilotage, nous vous proposons des vols d’initiation avec un instructeur expérimenté. Après un briefing explicatif, vous piloterez notre hélicoptère pour un vol inoubliable ! Plaisir intense, dépaysement total, sensations garanties, voici le menu qui vous attend.</p>
             	</div>
             	<div id="imageAccueil">
-            	    <img src="images/028.JPG" />
+            	    <img class="img-deco" src="images/028.JPG" />
             	</div>
 				<div class="fin"></div>
             </div>
@@ -94,5 +93,13 @@
    		});
 	});
 	</script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	</body>
 </html>

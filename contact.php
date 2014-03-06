@@ -32,6 +32,7 @@
         </div>
         <div id="page">
         	<div id="contenu">
+            	<div id="facebook" class="fb-like" data-href="https://www.facebook.com/rotorclubaixois" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
 				<div id="contact">
                 	<script src="http://cdn.jotfor.ms/static/jotform.js?3.2.247" type="text/javascript"></script>
                 	<script type="text/javascript">
@@ -181,5 +182,13 @@
    		});
 	});
 	</script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	</body>
 </html>
