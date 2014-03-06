@@ -2,12 +2,10 @@
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom:0px;
-
 }
 body{
 	background-color: rgb(200, 200, 200);
 	margin-top:0px;
-
 }
 #header img{
 	width: 100%	;
@@ -52,8 +50,8 @@ body{
     z-index: 2;
     background-color: #FBFBFB;
     width: 1370px;
-    height: 250px;
-    margin-top: -200px;
+    height: 275px;
+    margin-top: -234px;
 	margin-left: auto;
     margin-right: auto;
     -webkit-border-bottom-right-radius: 5px;
@@ -68,8 +66,8 @@ body{
     text-align: center;
 }
 #subfooter p{
-	margin-top:0px;	
-	padding-top: 208px;
+	margin-top: 0px;
+	padding-top: 239px;
 }
 #subfooter p a{
 	text-decoration: none;
@@ -79,7 +77,234 @@ body{
 	height:25px;
 	text-align:center;
 }
+.fin {
+    clear: both;
+}
+.form-label {
+    width: 150px !important;
+}
+.form-label-left {
+    width: 150px !important;
+}
+.form-line {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-label-right {
+    width: 150px !important;
+}
+.form-all {
+    width: 500px;
+    background: #FFFFFF;
+    color: #000000 !important;
+    font-family: 'Verdana';
+    font-size: 12px;
+}
+#id_5 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+#input_5 {
+    height: 203px !important;
+}
+.form-all input,select,textarea {
+    border: 1px solid #b7bbbd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
+}
+.form-all {
+    background: url('http://cms.interlogy.com/uploads/image_upload/image_upload/global/8688_bg_form_envelope.png') no-repeat;
+    margin: 0;
+    padding-left: 24px;
+    padding-top: 80px !important;
+    width: 524px;
+    height: 290px;
+}
+.form-error-message {
+    display: none !important;
+}
+.form-line-error {
+    background: none repeat scroll 0 0;
+}
+.form-validation-error {
+    border: 1px solid red !important;
+}
+.form-button-error {
+    display: block !important;
+    margin-top: -12px;
+    text-align: left;
+}
+.form-submit-button {
+    margin-top: 0px !important;
+    cursor: pointer;
+}
+.form-label-top {
+    display: block !important;
+}
+.jotform-form {
+    padding-bottom: 10px;
+}
+marquee {
+    height: 200px;
+    width: 95%;
+    border: solid #B4C1D3 0px;
+    padding: 5px;
+}
+td.cadre {
+    height: 200px;
+    width: 33%;
+    border: solid #3c3c3c 1px;
+}
+#images {
+    float: left;
+}
+#footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 234px;
+    position: relative;
+    z-index: 5;
+    opacity: 0.85;
+    text-align: center;
+}
+#form2 {
+    margin: 1em 0;
+    color: #fff;
+    width: 320px;
+ /* customize width, this form have fluid layout */;
+}
+#form2 h3 {
+    margin: 0;
+    background: #57a700 url(../images/form2/form_heading.gif) repeat-x;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #57a700;
+    border-bottom: none;
+}
+#form2 h3 span {
+    display: block;
+    padding: 10px 20px;
+    background: url(../images/form2/form_ico.gif) no-repeat 93% 50%;
+}
+#form2 fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 3px solid #000;
+    background: #000 url(../images/form2/form_top.gif) repeat-x;
+    padding-bottom: 1em;
+}
+#form2 legend {
+    display: none;
+}
+#form2 p {
+    margin: .5em 20px;
+}
+#form2 label {
+    display: block;
+}
+#form2 input, #form2 textarea {
+    width: 272px;
+    border: 1px solid #111;
+    background: #282828 url(../images/form2/form_input.gif) repeat-x;
+    padding: 5px 3px;
+    color: #fff;
+}
+#form2 textarea {
+    height: 125px;
+    overflow: auto;
+}
+#form2 p.submit {
+    text-align: right;
+}
+#form2 button {
+    padding: 0 20px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #70ad2e;
+    background: #5aae00 url(../images/form2/form_button.gif) repeat-x;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+#contact {
+    float: left;
+}
+#maps {
+    float: left;
+    padding-left: 25px;
+}
 
+#hugues {
+    float: left;
+    width: 49%;
+    margin-right: 25px;
+}
+#r44 {
+    float: left;
+    width: 49%;
+}
+#imageHelico {
+    margin-bottom: 25px;
+}
+#imageAccueil {
+    float: left;
+}
+#liens {
+    text-align: left;
+    width: auto;
+    margin-bottom: 20px;
+}
+a img {
+    border: none;
+}
+.lien {
+    background: #d7eeff;
+ /*si on veut une couleur de fond*/
+    margin-bottom: 10px;
+ /*espace entre les blocs*/
+    width: auto;
+ /*largeur du bloc image + texte*/;
+}
+.lien img {
+    float: left;
+}
+.lien p {
+    height: 135px;
+ 	/*hauteur de l'image*/
+	margin-left: 230px; /*largeur de l'image + quelques px de marge*/
+}
+#container{
+	position:relative;
+	width:990px;
+	margin:auto;
+	padding:20px 0px 20px 0px;
+}
+#container h1{
+	margin:0px 0px 10px 20px;
+}
+#container #map{
+	width:700px;
+	height:500px;
+	margin:auto;
+}
+#container #panel{
+	width:700px;
+	margin:auto;
+}
+#container #destinationForm{
+	margin:0px 0px 20px 0px;
+	background:#EEEEEE;
+	padding:10px 20px;
+	border:solid 1px #C0C0C0;
+}
+#container #destinationForm input[type=text]{
+	border:solid 1px #C0C0C0;
+}
 @media screen and (max-width:1387px){
 	#contenu{
 		width:initial;
@@ -88,8 +313,88 @@ body{
 	    width:100%;
 	}
 }
-@media screen and (max-width:639px){
+@media screen and (max-width:1370px) {
+    #page {
+        width: auto;
+    }
+    #subfooter {
+        width: auto;
+    }
+    #imageAccueil {
+        float: left;
+        border: #000;
+    }
+    #imageHelico {
+        float: left;
+        border: #000;
+    }
+@media screen and (max-width:1365px) {
+    #hugues{
+		width: auto;
+    }
+    #r44 {
+        width: auto;
+    }
+}
+@media screen and (max-width:1230px) {
+    #contenuTexte {
+        width: auto;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:1150px) {
+    #maps {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:825px) {
+    #contenu {
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width:656px) {
+	.lien p {
+		display:none;
+	}
+	.lien img {
+		padding-left:120px;	
+	}
+}
+@media screen and (max-width:640px) {
+    #imageAccueil {
+        display: none;
+    }
+    #imageHelico {
+        display: none;
+    }
+    #subfooter p {
+        color: #000;
+    }
 	#contenu{
 		padding-top:90px;
+	}
+}
+@media screen and (max-width:627px) {
+    #video {
+        display: none;
+    }
+}
+@media screen and (max-width:417px) {
+    #footer {
+        height: 100px;
+    }
+    #imageFooter {
+        height: 100px;
+        width: 150px;
+    }
+	.lien img {
+		padding-left:25px;	
+	}
+	#subfooter{
+		margin-top:0;
+		height:auto;
+	}
+	#subfooter p{
+		padding-top:0;	
 	}
 }
