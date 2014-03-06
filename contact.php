@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="css/styleR.css">
         <link rel="stylesheet" href="css/responsive-nav.css">
     	<link rel="stylesheet" href="css/style-nav.css">
-   		<script src="css/responsive-nav.js"></script>
+   		<script src="css/js/responsive-nav.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="initial-scale=1.0"><!-- le navigateur des appareils mobiles comprendra qu'il ne doit pas simuler de largeur d'écran plus grande et votre site s'affichera correctement. -->
         <meta name="Keywords" content="élico, helico, hélo, hélico, hélicoptère, chopper, AS 355, AS 341, helicopteres, pilote, photos, Helifrance, helicap, ecureuil, Robinson, Notar, Bell, Textron, Dauphin, EC 130, EC 135, EC 155, sécurite civile, sauvetage, rotor, voilure tournante, giraviation, aviation, avions, eleve pilote, simulation, simulateur, hugues 300, schweizer, passion, pilote, pilotage, hélitreuillage, aérien, aéronef, hugues, s&r, sar, huey, bell, liens, helico, avion, brevet, licence, tth, pph, ppl,cockpit, rotor, pale, turbine, vol, décollage, hélisurface, atterrissage, rotation, autorotation, flare, aix, Aix, Aix les milles, aérodrome, LFMA, lfma, hébert, HEBERT, hebert, anticouple, philippe, capiaumont, nicolas, philippe capiaumont, philippe">
@@ -139,7 +139,15 @@
       		</div>
             <div id="bottomPage">
             </div>
+            <div id="btn_up">
+				<img alt="Retour en haut" title="Retour en haut" src="images/scrollup.png" />
+			</div>
         </div>
+        <!-- Include Javascript -->
+       	<script src="css/js/jquery-1.10.2.min.js"></script>
+    	<script type="text/javascript" src="css/js/jquery-ui-1.8.12.custom.min.js"></script>
+    	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=fr"></script>
+    	<script type="text/javascript" src="css/js/functions.js"></script>
         <script>
       var navigation = responsiveNav(".nav-collapse", {
         animate: true,                    // Boolean: Use CSS3 transitions, true or false
@@ -157,10 +165,21 @@
         close: function(){}               // Function: Close callback
       });
     </script>
-    <!-- Include Javascript -->
-    <script type="text/javascript" src="css/js/jquery.min.js"></script>
-    <script type="text/javascript" src="css/js/jquery-ui-1.8.12.custom.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=fr"></script>
-    <script type="text/javascript" src="css/js/functions.js"></script>
+    
+	<script type="text/javascript">
+    //fonction qui permet de remonter en haut de page avec la fleche
+	$(function(){
+   		$('#btn_up').click(function() {
+    		$('html,body').animate({scrollTop: 0}, 'slow');
+   		});
+   		$(window).scroll(function(){
+    		if($(window).scrollTop()<150){
+        		$('#btn_up').fadeOut();
+      		}else{
+        		$('#btn_up').fadeIn();
+      		}
+   		});
+	});
+	</script>
 	</body>
 </html>

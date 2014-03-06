@@ -44,8 +44,11 @@
             <div id="bottomPage">
             </div>
         </div>
+        <div id="btn_up">
+			<img alt="Retour en haut" title="Retour en haut" src="images/scrollup.png" />
+		</div>
         <script>
-      var navigation = responsiveNav(".nav-collapse", {
+      	var navigation = responsiveNav(".nav-collapse", {
         animate: true,                    // Boolean: Use CSS3 transitions, true or false
         transition: 284,                  // Integer: Speed of the transition, in milliseconds
         label: "Menu",                    // String: Label for the navigation toggle
@@ -61,5 +64,21 @@
         close: function(){}               // Function: Close callback
       });
     </script>
+   	<script src="css/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+    //fonction qui permet de remonter en haut de page avec la fleche
+	$(function(){
+   		$('#btn_up').click(function() {
+    		$('html,body').animate({scrollTop: 0}, 'slow');
+   		});
+   		$(window).scroll(function(){
+    		if($(window).scrollTop()<150){
+        		$('#btn_up').fadeOut();
+      		}else{
+        		$('#btn_up').fadeIn();
+      		}
+   		});
+	});
+	</script>
 	</body>
 </html>
