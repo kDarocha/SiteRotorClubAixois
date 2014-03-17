@@ -17,17 +17,17 @@
         </div>
         <div id="menu">
         	<nav class="nav-collapse">
-              <ul>
-                <li><a href="index.php"><img src="images/menu/home.png" alt="index"></a></li>
-                <li><a href="club.html"><img src="images/menu/club.png" alt="club"></a></li>
-                <li><a href="helico.html"><img src="images/menu/helico.png" alt="helico"></a></li>
-                <li><a href="http://rotorclub.openflyers.fr/" target="_blank"><img src="images/menu/reservation.png" alt="reservation"></a></li>
-                <li><a href="navigation.html"><img src="images/menu/nav.png" alt="navigation"></a></li>
-                <li><a href="media.html"><img src="images/menu/media.png" alt="media"></a></li>
-                <li><a href="liens.html"><img src="images/menu/liens.png" alt="liens"></a></li>
-                <li><a href="restaurant.html"><img src="images/menu/resto.png" alt="restaurant"></a></li>
-                <li><a href="contact.php"><img src="images/menu/contact.png" alt="contact"></a></li>
-              </ul>
+                <ul>
+                    <li><a href="index.php"><img src="images/menu/home.png" alt="index"></a></li>
+                    <li><a href="club.html"><img src="images/menu/club.png" alt="club"></a></li>
+                    <li><a href="helico.html"><img src="images/menu/helico.png" alt="helico"></a></li>
+                    <li><a href="http://rotorclub.openflyers.fr/" target="_blank"><img src="images/menu/reservation.png" alt="reservation"></a></li>
+                    <li><a href="navigation.html"><img src="images/menu/nav.png" alt="navigation"></a></li>
+                    <li><a href="media.html"><img src="images/menu/media.png" alt="media"></a></li>
+                    <li><a href="liens.html"><img src="images/menu/liens.png" alt="liens"></a></li>
+                    <li><a href="restaurant.html"><img src="images/menu/resto.png" alt="restaurant"></a></li>
+                    <li><a href="contact.php"><img src="images/menu/contact.png" alt="contact"></a></li>
+                </ul>
     		</nav>
         </div>
         <div id="page">
@@ -57,7 +57,7 @@
             <div id="bottomPage">
             </div>
             <div id="btn_up">
-				<img alt="Retour en haut" title="Retour en haut" src="images/scrollup.png" />
+				<img alt="Retour en haut" title="Retour en haut" src="images/scrollup.png">
 			</div>
         </div>
         <script type="text/javascript">
