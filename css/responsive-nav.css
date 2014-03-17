@@ -17,15 +17,10 @@
   position: absolute;
   display: block;
   overflow: hidden;
-  zoom: 1;
 }
 
 .nav-collapse.opened {
   max-height: 9999px;
-}
-
-.disable-pointer-events {
-  pointer-events: none !important;
 }
 
 .nav-toggle {
@@ -35,7 +30,6 @@
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none;
 }
 
 @media screen and (min-width: 40em) {
