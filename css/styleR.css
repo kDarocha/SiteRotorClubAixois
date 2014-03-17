@@ -11,6 +11,9 @@ body{
 	width: 100%	;
 	height: auto;
 }
+#menu{
+	margin-top: -5px;	
+}
 #page{
 	height:auto;
 }
@@ -350,7 +353,7 @@ a img {
         float: left;
         border: #000;
     }
-    #imageHelico {
+    .imageHelico {
         float: left;
         border: #000;
     }
@@ -390,7 +393,7 @@ a img {
     #imageAccueil {
         display: none;
     }
-    #imageHelico {
+    .imageHelico {
         display: none;
     }
     #subfooter p {
