@@ -44,7 +44,7 @@
                 	<p>Pour vous permettre d’accéder à ce plaisir inégalé, et pourquoi pas vous décider à rejoindre notre école de pilotage, nous vous proposons des vols d’initiation avec un instructeur expérimenté. Après un briefing explicatif, vous piloterez notre hélicoptère pour un vol inoubliable ! Plaisir intense, dépaysement total, sensations garanties, voici le menu qui vous attend.</p>
             	</div>
             	<div id="imageAccueil">
-            	    <img class="img-deco" src="images/media/h300/137_3701.JPG" width="500" alt="h300">
+            	    <img class="img-deco" src="images/media/h300/137_3701m.jpg" width="500" alt="h300">
             	</div>
 				<div class="fin"></div>
             </div>
